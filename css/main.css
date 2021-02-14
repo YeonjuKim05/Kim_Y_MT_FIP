@@ -1,0 +1,561 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #fdf4d5;
+  font-family: din-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*------------------------------------------home------------------------------------*/
+
+#logo {
+  display: block;
+  width: 170px;
+  margin-top: 5px;
+}
+#mainNav {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainNav ul {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+#mainNav ul li a {
+  float: left;
+  margin-left: 40px;
+  display: block;
+  width: 100%;
+  color: #242e65;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out; /*should go on normal state*/
+}
+
+#mainNav ul li a:hover {
+  color: #cc532c;
+  transition: all 0.2s ease;
+}
+
+#mainNav .navlink {
+  justify-content: space-around;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  display: block;
+  font-size: 14px;
+}
+
+#mainHeader {
+  display: flex;
+  align-items: center;
+}
+
+#mainBanner {
+  background-image: url("file:///D:/IDP-Second%20semester/01_1056/Midterm/Kim_Yeonju_FIP/images/original%20image%20(1).jpg");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#mainBanner2 {
+  background-image: url("file:///D:/IDP-Second%20semester/01_1056/Midterm/Kim_Yeonju_FIP/images/aboutus_banner.jpg");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#mainBanner3 {
+  background-image: url("file:///D:/IDP-Second%20semester/01_1056/Midterm/Kim_Yeonju_FIP/images/original%20image%20(4).jpg");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#mainBanner4 {
+  background-image: url("file:///D:/IDP-Second%20semester/01_1056/Midterm/Kim_Yeonju_FIP/images/logo_mockup.jpg");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#ourfavorites {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 500px;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#ourfavorites:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.threeCol {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+}
+.beerCon {
+  margin-top: 20px;
+  width: 250px;
+  display: block;
+  flex-direction: row;
+}
+
+.beerCon p {
+  margin-top: 13px;
+  color: gray;
+  font-size: 16px;
+  line-height: 1.2rem;
+}
+
+#portfolio {
+  background-image: url("file:///D:/IDP-Second%20semester/01_1056/Midterm/Kim_Yeonju_FIP/images/original-image-(3).jpg");
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  background-color: #242e65;
+}
+#portfolioCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#followus {
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300x;
+  background-color: #edc462;
+}
+#footerCon {
+  margin: 30px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerCon a {
+  color: #cc532c;
+}
+
+#footerCon a:hover {
+  color: #b81129;
+}
+
+#footerCon li {
+  margin-bottom: 15px;
+}
+
+.threeCol2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+}
+
+#threeCol2 section {
+  display: flex;
+  flex-direction: row;
+}
+#copyright {
+  float: left;
+}
+
+#contactInfo {
+  float: right;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#news {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+#news section {
+  width: 370px;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f28c20;
+}
+
+#followus a {
+  margin-right: 20px;
+}
+#followus a:last-child {
+  margin-right: 0;
+}
+
+ul {
+  list-style: none;
+  cursor: pointer;
+}
+/* button */
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #cc532c;
+}
+
+/*------------------------------------------about------------------------------------*/
+
+#aboutusIntro {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#aboutusCon {
+  width: 530px;
+  height: 372px;
+  margin: auto;
+}
+
+#ourstory {
+  margin-top: 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#ourstoryText_right {
+  width: 597.5px;
+  height: 457px;
+  text-align: center;
+}
+
+#ourstoryText {
+  margin-top: 100px;
+  width: 597.5px;
+  height: 457px;
+  text-align: right;
+}
+
+#portfolio h1 {
+  color: #edc462;
+  margin-top: 100px;
+  font-size: 80px;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #242e65;
+  margin-top: 200px;
+  font-family: clarendon-text-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+h3 {
+  margin-bottom: 6px;
+  color: #242e65;
+  font-size: 30px;
+}
+
+h2 {
+  color: #242e65;
+  font-family: clarendon-text-pro, serif;
+  font-weight: 400;
+  font-size: 40px;
+  position: relative;
+}
+#followus h2 {
+  font-family: din-condensed, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: #242e65;
+  margin-bottom: 50px;
+}
+
+/*------------------------------------------contact us------------------------------------*/
+
+#contactus {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#Conform {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 20px 20px;
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #b81129;
+  border: none;
+  font-family: din-condensed, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  display: flex;
+  align-items: center;
+  color: #fdf4d5;
+}
+
+.button:active {
+  position: relative;
+  top: 2px;
+}
+
+.shop {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  display: inline;
+  text-transform: uppercase;
+  background-color: #b81129;
+  border: none;
+}
+
+.shop:hover {
+  background: #cc532c;
+  text-decoration: none;
+  color: #fdf4d5;
+}
+
+.beer {
+  padding: 15px 20px;
+  width: 200px;
+  height: 50px;
+  display: inline;
+  text-transform: uppercase;
+  background-color: #b81129;
+  border: none;
+}
+
+.beer:hover {
+  background: #cc532c;
+  text-decoration: none;
+  color: #fdf4d5;
+}
+
+.banner {
+  color: #edc462;
+  background-color: transparent;
+  padding: 15px 20px;
+  width: 200px;
+  height: 50px;
+  display: inline;
+  text-transform: uppercase;
+  border: 2px solid #edc462;
+}
+
+.banner:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #cc532c;
+  border: 2px solid #cc532c;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#map {
+  width: 200px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#map2 {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+}
+
+#Locator {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  background-color: #cc532c;
+}
+
+#contactform {
+  width: 700px;
+  padding: 20px 50px 20px 50px;
+  margin: 20px auto;
+  height: 500px;
+}
+
+#contact-area {
+  width: 600px;
+  margin-top: 35px;
+}
+
+#contact-area input,
+#contact-area textarea {
+  padding: 5px;
+  width: 471px;
+  font-family: din-condensed, sans-serif;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 2px solid #242e65;
+}
+
+#contact-area textarea {
+  height: 100px;
+}
+
+#contact-area textarea:focus,
+#contact-area input:focus {
+  border: 2px solid #242e65;
+}
+
+#contact-area input.submit-button {
+  width: 150px;
+  float: right;
+  text-decoration: none;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #b81129;
+  border: none;
+  font-family: din-condensed, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  color: #fdf4d5;
+}
+
+#contact-area input.submit-button:hover {
+  background: #cc532c;
+  text-decoration: none;
+  color: #fdf4d5;
+}
+
+label {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 11px;
+  font-size: 20px;
+}
+
+#promotion {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.step {
+  margin-top: 60px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+#promotioncode {
+  background-color: #edc462;
+
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.coupon {
+  width: 230px;
+  padding: 20px 20px;
+  text-align: center;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #cc532c;
+  border: none;
+  font-family: din-condensed, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  display: flex;
+  float: center;
+  color: #fdf4d5;
+}
+
+.coupon:hover {
+  background-color: #b81129;
+  color: #edc462;
+}
+
+.video_wrap {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+iframe {
+  width: 900px;
+  display: flex;
+  float: right;
+}
