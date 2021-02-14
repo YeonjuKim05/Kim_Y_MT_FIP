@@ -1,1 +1,4 @@
-# Kim_Y_MT_FIP
+# This is Yeonju Kim
+This repository is for the Midterm project.
+
+## Brand Mashup/ReBrand & Marketing Campaign
